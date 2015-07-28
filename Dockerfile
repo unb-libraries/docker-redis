@@ -20,7 +20,7 @@ RUN cd /tmp && \
 ADD services/ /etc/service/
 RUN chmod -v +x /etc/service/*/run
 
-ADD conf/redis.conf /etc/redis/redis.conf
+ADD conf/redis/redis.conf /etc/redis/redis.conf
 RUN mkdir /data
 
 EXPOSE 6379
