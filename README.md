@@ -1,5 +1,5 @@
-# unblibraries/redis
-Docker container : leverages phusion/baseimage to deploy a baseline redis instance.
+# unblibraries/redis [![](https://badge.imagelayers.io/unblibraries/redis:latest.svg)](https://imagelayers.io/?images=unblibraries/redis:latest 'Get your own badge on imagelayers.io')
+Docker container : a small, baseline redis instance. There isn't much unique here, but the conf file is included.
 
 ## Usage
 ```
@@ -16,6 +16,3 @@ docker run \
   - http://opensource.org/licenses/mit-license.html
 - Attribution is not required, but much appreciated:
   - `Redis Docker Container by UNB Libraries`
-
-## Credit
-- Original work for this container was based on that of [Ferran Rodenas](https://github.com/frodenas/docker-redis).
